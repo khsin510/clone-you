@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Youtube Clone</title>
 </head>
 <body>
@@ -46,8 +47,66 @@
             <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
             <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
         </div>
-        <div class="channel"></div>
+        <div class="channel">
+            <div class="metadata">
+                <img src="imges/main.png" alt="아바타이미지">
+                <div class="info">
+                    <span class="name">드림코딩</span>
+                    <span class="subscribers">1M 구독</span>
+                </div>
+            </div>
+            <button type="button"class="subscribe">구독</button>
+        </div>
     </section>
-    <section class="UpNext"></section>
+    <section class="UpNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+                <img src="imges/3.jpg" alt="영상이미지">
+                <div class="info">
+                    <span class="title">
+                        제목1
+                    </span>
+                    <span class="name">
+                        내용1
+                    </span>
+                    <span class="views">
+                        1234views
+                    </span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsos-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="imges/1.jpg" alt="영상이미지">
+                <div class="info">
+                    <span class="title">
+                        제목1
+                    </span>
+                    <span class="name">
+                        내용1
+                    </span>
+                    <span class="views">
+                        1234views
+                    </span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsos-v"></i></button>
+            </li>
+            <li class="item">
+                <img src="imges/2.jpg" alt="영상이미지">
+                <div class="info">
+                    <span class="title">
+                        제목1
+                    </span>
+                    <span class="name">
+                        내용1
+                    </span>
+                    <span class="views">
+                        1234views
+                    </span>
+                </div>
+                <button class="moreBtn"><i class="fas fa-ellipsos-v"></i></button>
+            </li>
+        </ul>
+    </section>
 </body>
 </html>
